@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import customStyle from "../styles/customStyles";
+import customStyle from "../styles/CustomStyles";
 import { Popover, Typography, Button } from "@material-ui/core/";
 import AccessTimeIcon from "@material-ui/icons/AccessTime";
 import SimpleCard from "./SimpleCard";

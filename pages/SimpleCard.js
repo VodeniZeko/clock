@@ -1,5 +1,5 @@
 import React from "react";
-import customStyle from "../styles/customStyles";
+import customStyle from "../styles/CustomStyles";
 import {
   ButtonGroup,
   Card,
