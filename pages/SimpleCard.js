@@ -78,8 +78,12 @@ export default function SimpleCard({
               orientation="vertical"
               aria-label="vertical outlined primary button group"
             >
-              <Button className={ampm === "AM" && classes.on}>AM</Button>
-              <Button className={ampm === "PM" && classes.on}>PM</Button>
+              <Button variant="contained" color={ampm === "AM" && "primary"}>
+                AM
+              </Button>
+              <Button variant="contained" color={ampm === "PM" && "primary"}>
+                PM
+              </Button>
             </ButtonGroup>
           </Box>
         </Box>
